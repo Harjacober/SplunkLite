@@ -1,3 +1,5 @@
+package com.kingjoe.splunklite;
+
 public enum LogLevel {
     FATAL,
     ERROR,

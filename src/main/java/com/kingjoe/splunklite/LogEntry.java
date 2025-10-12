@@ -1,5 +1,6 @@
-import java.time.Instant;
+package com.kingjoe.splunklite;
 
-public record LogEntry (String message, String service, LogLevel level, Instant timestamp){}
+public record LogEntry(String message, String service, LogLevel level, long timestamp) {
+}
 
 
